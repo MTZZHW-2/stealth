@@ -2,7 +2,7 @@
   "env": {
     "browser": true,
     "es6": true,
-    "node": true
+    "node": true,
   },
   "extends": [
     "eslint:recommended",
@@ -12,16 +12,18 @@
     "plugin:import/electron",
     "plugin:import/typescript",
     "plugin:prettier/recommended",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
   ],
   "rules": {
+    "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/consistent-type-imports": "warn",
     "@typescript-eslint/no-unused-vars": "warn",
     "import/order": "warn",
     "react/no-array-index-key": "warn",
+    "react/prop-types": "off",
     "no-console": "warn",
     "no-use-before-define": "error",
-    "object-shorthand": "warn"
+    "object-shorthand": "warn",
   },
-  "parser": "@typescript-eslint/parser"
+  "parser": "@typescript-eslint/parser",
 }
