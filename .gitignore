@@ -1,0 +1,12 @@
+# Logs
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+.DS_Store
+
+# Dependency directories
+node_modules/
+
+# Vite
+.vite/
