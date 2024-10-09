@@ -1,6 +1,5 @@
 {
   "name": "stealth",
-  "productName": "Stealth",
   "version": "1.0.0",
   "description": "简洁、快速地对文件进行格式伪装",
   "main": ".vite/build/main.js",

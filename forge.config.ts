@@ -9,6 +9,8 @@ import { FuseV1Options, FuseVersion } from '@electron/fuses';
 
 const config: ForgeConfig = {
   packagerConfig: {
+    name: 'Stealth',
+    executableName: 'stealth',
     asar: true,
     icon: 'public/icon/icon',
   },
